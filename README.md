@@ -1,5 +1,8 @@
 # Markdown-Experimental
 This is for me to experiment with Github Flavoured Markdown.
+<br>
+<br>
+<br>
 
 # Newlines
 
@@ -34,6 +37,7 @@ Line 25: Newline on Line 23, br on 22 and 24. No trailing spaces on 21. Only 2 n
 
 Line 29: Newline on Line 28, br on 26 and 27. No trailing spaces on 25. Only 2 newline show instead of 3.
 
+<a name="bpnl"></a>
 ## Best practise for newlines
 
 First line of text. No trailing spaces. Add as many br newlines you need and pad with a newline:
@@ -41,7 +45,9 @@ First line of text. No trailing spaces. Add as many br newlines you need and pad
 <br>
 
 Second line of text has 2 newlines between the first.
-
+<br>
+<br>
+<br>
 
 # Spaces
 
@@ -57,8 +63,9 @@ space, space nbsp, space, space between the arrows ->  &nbsp;  <-, only three sp
 For one space between the arrows -> <-, just use space normally.  
 For two space between the arrows ->&nbsp;&nbsp;<-, use two nbsps.  
 For more than 2 spaces between the arrows -> &nbsp;&nbsp; <-, pad the edges with space and use nbsps in the centre.  
-
-
+<br>
+<br>
+<br>
 
 # Headings
 
@@ -80,6 +87,13 @@ But if you have some text above the break, the heading will be fine
 <br>
 You can have some text after the heading too!
 
+## Best Practise
+
+### Leave a newline before the top and do not use breaks after
+Then write your content directly underneth.
+<br>
+<br>
+<br>
 
 # Tables
 
@@ -104,3 +118,15 @@ But if you have some text above the break, the table will be fine
 | abc     | def     | ghi     |
 <br>
 A break below table is fine.
+
+## Best Practise
+
+You can have some text before the table. It will automatically leave a newline. If you need more, use breaks and newline before table. See [this](#bpnl).
+<br>
+<br>
+
+| Header1 | Header2 | Header3 |
+|---------|---------|---------|
+| abc     | def     | ghi     |
+
+Leave a newline then type again.
