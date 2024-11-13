@@ -133,5 +133,5 @@ Leave a newline then type again.
 
 # Headers
 
-## You cannot **bold** or *italicise* or <u>underline<\u> in H2 headers
-## You can use `code blocks` in H2 headers
+## You cannot **bold** or <u>underline</u> in H2 headers
+## You can use `code blocks` or *italicise* or <sup>superscript</sup> or <sub>subscript</sub> in H2 headers
