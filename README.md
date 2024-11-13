@@ -130,3 +130,8 @@ You can have some text before the table. It will automatically leave a newline. 
 | abc     | def     | ghi     |
 
 Leave a newline then type again.
+
+# Headers
+
+## You cannot **bold** or *italicise* or <u>underline<\u> in H2 headers
+## You can use `code blocks` in H2 headers
